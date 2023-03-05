@@ -1,0 +1,15 @@
+.main__change{
+    position: relative;
+    padding: 1rem;
+    background-color: rgb(28,29,33);
+    width: 94%;
+    height: 7rem;
+    border-radius: 25px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns with equal width */
+    gap: 10px;
+   
+}

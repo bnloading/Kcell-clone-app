@@ -1,0 +1,55 @@
+.payment{
+    position: relative;
+    padding: 1rem;
+    background-color: rgb(28,29,33);
+    width: 94%;
+    height: 15rem;
+    border-radius: 25px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: -4.8rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns with equal width */
+    grid-template-rows: repeat(2, 1fr); /* 2 rows with equal height */
+    gap: 10px;
+   
+}
+
+.payment__items{
+    border-radius: 15px;
+   color: white;
+    width: 90%;
+    height: 6.3rem;
+    background: rgb(49,50,56);
+    justify-content: space-around;
+    padding: 1rem;
+    align-items: center;
+    text-align: center;
+}
+.payment__items .icon{
+
+    font-size: 1.5rem;}
+.payment__items p{
+    margin-top: 0.2rem;
+    font-size: 12px;
+    font-weight: 500;
+}
+.payment__items:nth-child(3) .new{
+    text-align: center;
+    padding: 5px;
+    position: absolute;
+    right: 1.9rem;
+    top: 0.8rem;
+  
+    border-radius: 0 15px 0  15px;
+
+ 
+    width: 40px;
+    height: 25px;
+    background: rgb(101,45,134);
+}
+.payment__items .new 
+{
+ 
+    font-weight: 500;
+}

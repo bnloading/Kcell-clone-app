@@ -1,0 +1,42 @@
+.add img{
+    max-width: 200%;
+    max-height: 100%;
+    border-radius: 15px;
+    width: 50rem;
+   height: 7rem;
+   object-fit: cover;
+   opacity: 0.5;
+
+z-index: 1;
+   
+  
+
+}
+.add img:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.add__items{
+    position: relative;
+    top: -85px;
+    margin: 0;
+    margin-left: 1rem;
+    width: auto;
+   display: flex;
+   flex-direction: row;
+    justify-content: space-evenly;
+   gap: 6.88rem;
+   overflow-x: hidden;
+}
+.add .photo__text{
+    position: absolute;
+    padding: 10px 10px;
+    font-weight: 400;
+    z-index: 999;
+    color: white;
+    text-align: center;
+  
+}
+.add{
+    margin-top: 4rem;
+}
